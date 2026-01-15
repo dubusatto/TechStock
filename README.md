@@ -23,3 +23,28 @@ python -m venv venv
 pip install -r requirements.txt
 # Rodar servidor
 uvicorn main:app --reload
+
+A API ficará disponível em: http://127.0.0.1:8000/docs
+
+2. Frontend (Interface)
+Abra um segundo terminal na pasta raiz:
+
+Bash
+
+cd frontend
+# Instalar dependências (apenas na primeira vez)
+npm install
+# Rodar projeto
+npm run dev
+O site ficará disponível em: http://localhost:5173
+
+✅ Funcionalidades (CRUD)
+[x] Listar produtos
+
+[x] Adicionar novo produto
+
+[x] Deletar produto
+
+[x] Atualizar quantidade (+/-)
+
+[x] Alerta visual de estoque baixo (< 5 unidades)
