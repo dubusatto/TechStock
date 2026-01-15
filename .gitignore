@@ -1,0 +1,15 @@
+# --- GERAL ---
+.DS_Store
+
+# --- PYTHON (Backend) ---
+__pycache__/
+*.py[cod]
+*venv/
+*.db
+.env
+
+# --- NODE/REACT (Frontend) ---
+node_modules/
+dist/
+build/
+.vscode/
